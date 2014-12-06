@@ -6,3 +6,4 @@ set nocursorcolumn
 set paste
 set number
 hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
+set laststatus=2

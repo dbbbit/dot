@@ -5,6 +5,7 @@ set cursorline
 set nocursorcolumn
 set paste
 set number
+set laststatus=2
 syntax on
 set fileencodings=utf-8,gb2312
 set fileencoding=utf-8

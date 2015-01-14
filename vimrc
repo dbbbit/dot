@@ -10,4 +10,6 @@ syntax on
 set fileencodings=utf-8,gb2312
 set fileencoding=utf-8
 set encoding=utf-8
+set ic
 hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
+map <Esc><Esc> :w<CR>

@@ -30,4 +30,5 @@ set encoding=utf-8
 set ic
 hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
 hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
+hi Comment ctermfg =blue
 map <Esc><Esc> :w<CR>

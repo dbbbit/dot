@@ -1,3 +1,3 @@
-The Dot Config files
+The Dot Config Files
 ===
 

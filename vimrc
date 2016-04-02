@@ -10,6 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -33,3 +34,6 @@ hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
 hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
 hi Comment ctermfg =blue
 nnoremap ; :
+
+nnoremap <leader>jd :YcmCompleter GoTo<CR>
+set showcmd

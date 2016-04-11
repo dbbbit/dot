@@ -24,7 +24,7 @@ set cursorcolumn
 set paste
 set number
 set laststatus=2
-set mouse=a
+set mouse=v
 syntax on
 set fileencodings=utf-8,gb2312
 set fileencoding=utf-8

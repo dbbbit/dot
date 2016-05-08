@@ -35,5 +35,9 @@ hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
 hi Comment ctermfg =blue
 nnoremap ; :
 
+" YCM
 nnoremap <leader>jd :YcmCompleter GoTo<CR>
 set showcmd
+
+" allow backspacing over everything in insert mode
+:set backspace=indent,eol,start

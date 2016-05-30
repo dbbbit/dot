@@ -34,6 +34,7 @@ hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
 hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
 hi Comment ctermfg =blue
 nnoremap ; :
+colorscheme desert
 
 " YCM
 nnoremap <leader>jd :YcmCompleter GoTo<CR>

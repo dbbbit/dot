@@ -30,11 +30,11 @@ set fileencodings=utf-8,gb2312
 set fileencoding=utf-8
 set encoding=utf-8
 set ic
+colorscheme desert
 hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
 hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
 hi Comment ctermfg =blue
 nnoremap ; :
-colorscheme desert
 
 " YCM
 nnoremap <leader>jd :YcmCompleter GoTo<CR>

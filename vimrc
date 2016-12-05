@@ -10,7 +10,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'valloric/youcompleteme'
+" Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -31,14 +31,14 @@ set fileencoding=utf-8
 set encoding=utf-8
 set ic
 colorscheme desert
-hi CursorLine ctermbg=None ctermfg=None guibg=None guifg=None
-hi CursorColumn ctermbg=4 ctermfg=None guibg=None guifg=None
-hi Comment ctermfg =blue
+hi CursorLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
+hi CursorColumn ctermbg=4 ctermfg=NONE guibg=NONE guifg=NONE
+hi Comment ctermfg=blue
 nnoremap ; :
 
 " YCM
-nnoremap <leader>jd :YcmCompleter GoTo<CR>
-set showcmd
+" nnoremap <leader>jd :YcmCompleter GoTo<CR>
+" set showcmd
 
 " allow backspacing over everything in insert mode
 :set backspace=indent,eol,start

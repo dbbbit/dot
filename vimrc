@@ -16,8 +16,6 @@ Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-set ts=4
-set expandtab
 set autoindent
 set cursorline
 set cursorcolumn
@@ -42,3 +40,5 @@ nnoremap ; :
 
 " allow backspacing over everything in insert mode
 :set backspace=indent,eol,start
+set ts=4
+set expandtab

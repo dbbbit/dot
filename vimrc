@@ -33,4 +33,9 @@ colorscheme desert
 hi CursorLine ctermbg=NONE ctermfg=NONE guibg=NONE guifg=NONE
 hi CursorColumn ctermbg=4 ctermfg=NONE guibg=NONE guifg=NONE
 hi Comment ctermfg=blue
+
+autocmd BufEnter *.py set ai sw=4 ts=4 sta et fo=croql
 autocmd BufReadPost * :DetectIndent
+
+let g:pymode_options_max_line_length = 100
+
